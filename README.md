@@ -12,4 +12,13 @@
   + 安装Node
   + 会通过 npm 下载包 
   + 通过 Node 的 `http` 模块 开启 `Server`
-    * ``` var http = require('http')  ```
+  ```javascript
+  var http = require('http')
+  http
+    .createServer(fcuntion (request, response) {
+      //TODO
+    })
+    .listen('3000', function () {
+      console.log('running...')
+    })
+  ```
