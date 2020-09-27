@@ -12,4 +12,5 @@
   + 安装Node
   + 会通过 npm 下载包 
   + 通过 Node 的 `http` 模块 开启 `Server`
-    * ```javascript var http = require('http')
+    * ```javascript
+    var http = require('http')
